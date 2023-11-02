@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Product+Sans:wght@400;500;700&display=swap');
+body {
+    text-align: center;
+    justify-content: center;
+    padding: 200px;
+    font-family: Product Sans, sans-serif;
+    font-size: 16px;
+    background: linear-gradient(to right, #000, #333);
+}
+
+#imagecss {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 30%;
+}
+
+#headerSection {
+    padding: 5px;
+}
+
+#headerSection h1 {
+    font-family: Product Sans, sans-serif;
+    font-size: 24px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    font-family: Product Sans, sans-serif;
+    font-size: 16px;
+}
+
+#dropbox {
+    padding: 10px;
+    border-radius: 5px;
+    width: 15%;
+}
+
+#loginbtn {
+    background-color: blue;
+    color: #fff;
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease-in-out;
+}
+
+#loginbtn:hover {
+  transform: scale(1.1);
+}
+
+.container {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: black;
+    justify-content: center;
+    margin-left: 390px;
+    margin: 0 auto;
+}
+
+.c {
+    text-align: center;
+}

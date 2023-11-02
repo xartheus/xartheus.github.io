@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photo Contest</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Product+Sans:wght@400;500;700&display=swap');
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: Product Sans, sans-serif;
+      background-image: url('bgpic.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .container {
+      width: 300px;
+      padding: 20px;
+      background-color:transparent;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      color:white;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007BFF;
+      color: #fff;
+      text-decoration: none;
+      border: none;
+      border-radius: 5px;
+      margin: 10px;
+      cursor: pointer;
+      font-family: Product Sans, sans-serif;
+      font-size: 16px;
+      text-align: center;
+    }
+
+    .button:hover {
+      background-color: #0056b3;
+    }
+ 
+    .container {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .button {
+      transition: all 0.2s ease-in-out;
+    }
+
+    .button:hover {
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Registration</h1>
+    <p>Register Yourself in this Platform:</p>
+    <a class="button" href="guestlogin.html">Audience</a>
+    <a class="button" href="register.php">Participants</a>
+  </div>
+</body>
+</html>
+
+
